@@ -1,0 +1,11 @@
+{
+  "name": "hh_common",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "typings": "build/index",
+  "dependencies": {
+    "@types/node": "14.11.2",
+    "axios": "0.20.0",
+    "uuid": "8.3"
+  }
+}
