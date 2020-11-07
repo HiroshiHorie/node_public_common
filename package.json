@@ -1,5 +1,5 @@
 {
-  "name": "hh_common",
+  "name": "node_public_common",
   "version": "1.0.0",
   "main": "build/index.js",
   "typings": "build/index",
