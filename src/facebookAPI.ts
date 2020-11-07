@@ -1,5 +1,6 @@
 //
 //
+//
 
 import { FacebookUser } from "./interfaces"
 import axios from 'axios'
@@ -20,6 +21,7 @@ export class FacebookAPI {
       params: {
         fields: fields,
         access_token: this.accessToken,
+        locale: 'en_US',
       },
     })
 

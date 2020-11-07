@@ -1,7 +1,4 @@
 "use strict";
-/*
- * UNX
- */
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.MemoryCache = void 0;
 class MemoryCache {

@@ -1,7 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.IDHash = exports.UUIDWithPrefix = exports.Random = void 0;
-//
 const uuid_1 = require("uuid");
 const crypto = require('crypto');
 class Random {
@@ -16,9 +15,6 @@ exports.Random = Random;
 Random.NumericSet = "0123456789";
 Random.AlphaSet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 Random.AlphaNumericSet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-// export function logObject(obj: any) {
-//     console.log(util.inspect(obj, {showHidden: false, depth: null}))
-// }
 exports.UUIDWithPrefix = (prefix) => prefix + uuid_1.v4();
 exports.IDHash = (userIds) => {
     userIds.sort();

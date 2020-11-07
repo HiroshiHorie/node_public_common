@@ -1,6 +1,4 @@
 "use strict";
-//
-//
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.FlatColors = exports.UUIDWithPrefix = exports.IDHash = exports.MemoryCache = exports.FacebookAPI = void 0;
 var facebookAPI_1 = require("./facebookAPI");
@@ -12,10 +10,3 @@ Object.defineProperty(exports, "IDHash", { enumerable: true, get: function () { 
 Object.defineProperty(exports, "UUIDWithPrefix", { enumerable: true, get: function () { return random_1.UUIDWithPrefix; } });
 var flatColors_1 = require("./flatColors");
 Object.defineProperty(exports, "FlatColors", { enumerable: true, get: function () { return flatColors_1.FlatColors; } });
-// module.exports = {
-//   FacebookAPI,
-//   MemoryCache,
-//   UUIDWithPrefix,
-//   IDHash,
-//   FlatColors,
-// }
